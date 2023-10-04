@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+  <title>Cajas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body class="cuerpo">
+  <header class="cabeza">
+    <img class="logo" src="img/BD.jpg" alt="Logo" />
+    <h1 class="titulo">Aplicaciones WEB</h1>
+    <nav class="navbar">
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <ul class="menu">
+        <li><a class="navli" href="index.html">INICIO</a></li>
+        <li><a class="navli" href="index.html">ACERDA DE</a></li>
+        <li><a class="navli" href="#contacto">CONTACTO</a></li>
+        <li><a class="navli" href="index.html">INICIAR SESION</a></li>
+        <li><a class="navli" href="index.html">REGISTRO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <div class="acerca">
+      <div class="acerca-texto">
+        <h2>Acerca de mi</h2>
+        <h2>Bienvenido a mi pagina</h2>
+        <h2>Soy ingeniero de sistemas con experiencia en base de datos</h2>
+      </div>
+      <img class="acerca-foto" src="img/foto.jpg" alt="Logo" />
+    </div>
+    <div class="mision">
+      <img class="mision-foto" src="img/Paisaje.jpg" alt="Logo" />
+      <div class="mision-texto">
+        <h2>MISION</h2>
+        <h2>Mi objectivo es facilitar la labor de las personas usando aplicaciones WEB con el fin de gestionar de manera
+          mas eficiente la informacion</h2>
+      </div>
+    </div>
+    <div class="vision">
+      <div class="vision-texto">
+        <h2>VISION</h2>
+        <h2>Mi objectivo es lograr llegar al maximo de personas que requieran un sistema WEB</h2>
+      </div>
+      <img class="vision-foto" src="img/Starfield.jpg" alt="Logo" />
+    </div>
+    <div id="contacto">
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="usuario@gmail.com" required />
+        </div>
+        <div class="form-row">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+          <button type="submit" id="submit">Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="pie-pagina">
+    <a href="mailto:"><img src='img/Correo.jpg ' alt="Correo Fabrizio Conterno" width="70px" height="70px" /></a>
+    <a href="https://wa.me/+573002902138"><img src='img/WhatsApp.png' alt="WhatsApp Fabrizio Conterno" width="280px"
+        height="70px" /></a>
+  </footer>
+</body>
+
+</html>
